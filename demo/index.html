@@ -1,29 +1,24 @@
-<!doctype html>
-<html lang="en-GB">
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <style>
-    body {
-      background: #fafafa;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star rating</title>
+  <link rel="shortcut icon" href="../src/images/star1.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Montserrat:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
 </head>
+
+
 <body>
-  <div id="demo"></div>
 
-  <script type="module">
-    import { html, render } from 'lit';
-    import '../cris-rating.js';
+  <cris-rating>
+  
+  <script type="module"> import '../cris-rating.js';</script>
 
-    const header = 'Hello owc World!';
-    render(
-      html`
-        <cris-rating .header=${header}>
-          some light-dom
-        </cris-rating>
-      `,
-      document.querySelector('#demo')
-    );
-  </script>
 </body>
+
 </html>
