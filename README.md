@@ -1,4 +1,6 @@
-# \ ✨ Star Rating
+# ✨ Star Rating
+
+:star::star::star::star::star:
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
