@@ -2,7 +2,7 @@
 
 :star::star::star::star::star:
 
-This is a project that I have done with Lit Element and Web components to learn and practice these technologies. This is a component called <cris-rating> to build a star ranking.
+This is a project that I have done with Lit Element and Web components to learn and practice these technologies. This is a component called ```<cris-rating>``` to build a star ranking.
 
 ## Installation
 
