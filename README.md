@@ -62,3 +62,11 @@ npm start
 ```
 
 To run a local development server that serves the basic demo located in `demo/index.html`
+
+
+
+## 🏆 Codefactor
+
+[![CodeFactor](https://www.codefactor.io/repository/github/crisrodriguezgar/star-rating/badge/main)](https://www.codefactor.io/repository/github/crisrodriguezgar/star-rating/overview/main)
+
+### Enjoy it!
