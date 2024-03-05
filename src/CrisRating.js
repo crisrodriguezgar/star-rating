@@ -42,22 +42,33 @@ export class CrisRating extends LitElement {
   `;
 
   static properties = {
-    text: { type: String },
-    starsCounter: { type: Number },
-    rating: { type: Number },
+    text: {
+      type: String,
+    },
+    starsCounter: {
+      type: Number,
+      attribute: 'stars-counter',
+    },
+    rating: {
+      type: Number,
+    },
+    showTextarea: {
+      type: Boolean,
+    },
   };
 
   constructor() {
     super();
     this.text = '¿Qué te ha parecido?';
-    this.starsCounter = 5;
+    this.starsCounter = 0;
     this.rating = 0;
+    this.showTextarea = false;
   }
 
   fillStar(index) {
     this.filledStars = index + 1;
     this.rating = index + 1;
-    this.requestUpdate();
+    this.showTextarea = true;
     console.log(this.rating);
   }
 
@@ -84,13 +95,13 @@ export class CrisRating extends LitElement {
           )}
         </div>
 
-        ${this.rating === 0
-          ? html``
-          : html`<textarea
+        ${this.showTextarea
+          ? html`<textarea
               placeholder="Déjanos saber tu opinión..."
               cols="50"
               rows="10"
-            ></textarea>`}
+            ></textarea>`
+          : html``}
       </div>
     `;
   }
