@@ -2,7 +2,7 @@
 
 :star::star::star::star::star:
 
-This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
+This is a project that I have done with Lit Element and Web components to learn and practice these technologies. This is a component called <cris-rating> to build a star ranking.
 
 ## Installation
 
