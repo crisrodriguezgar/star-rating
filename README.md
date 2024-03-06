@@ -2,7 +2,23 @@
 
 :star::star::star::star::star:
 
-This is a project that I have done with Lit Element and Web components to learn and practice these technologies. This is a component called ```<cris-rating>``` to build a star ranking.
+This is a project that I have done with Lit Element and Web Components technologies to learn and practice. I have made a component called ```<cris-rating>``` to build a star ranking for any web page that needs it.
+
+## 📋 Initial Requeriments
+
+- Create a component called ```<cris-rating></cris-rating>```
+- Paint title, with the text attribute or set a default property.
+- Paint as many stars as you want with the star-count attribute.
+- Use the rating to fill in that number of stars.
+- If you have a rating, a text box should appear below to leave more comments.
+
+## 🔨 Built with 
+
+- **Visual Studio Code**
+- **HTML**
+- **Java Script** 
+- **Lit Element**
+- **Web Components**
 
 ## Installation
 
@@ -63,7 +79,17 @@ npm start
 
 To run a local development server that serves the basic demo located in `demo/index.html`
 
+## 🐑🐑 Want to clone my repository?
 
+Go for it! And if you make something pretty, please show me
+  
+## ✏️ Do you have any idea? 
+
+I'm an student and as I stated before am learning a whole lot of Front End Developing, so, if  you have any idea that I could develope please tell me so and I will try to.
+
+## 🙍‍♀️ Autor
+
+[![Autor](https://img.shields.io/badge/-%20Cristina%20Rodriguez%20-%20pink?logo=github&labelColor=grey&color=rgb(240%2C%2093%2C%20215))](https://github.com/crisrodriguezgar)
 
 ## 🏆 Codefactor
 
