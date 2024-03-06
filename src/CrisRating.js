@@ -69,7 +69,7 @@ export class CrisRating extends LitElement {
     this.filledStars = index + 1;
     this.rating = index + 1;
     this.showTextarea = true;
-    console.log(this.rating);
+    console.log(`Estrella clikada: ${this.rating}`);
   }
 
   render() {
