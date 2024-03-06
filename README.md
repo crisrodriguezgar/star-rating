@@ -4,6 +4,8 @@
 
 This is a project that I have done with Lit Element and Web Components technologies to learn and practice. I have made a component called ```<cris-rating>``` to build a star ranking for any web page that needs it.
 
+<img src="./src/images/Captura.PNG" width="445"/> <img src="./src/images/Captura1.PNG" width="530"/>
+
 ## 📋 Initial Requeriments
 
 - Create a component called ```<cris-rating></cris-rating>```
